@@ -62,6 +62,16 @@
   border-radius: 50%;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--focus-color);
+  }
+
+  &:hover .social-list-icon,
+  &:focus .social-list-icon {
+    fill: var(--main-bgc);
+  }
 }
 
 .social-list-icon {
@@ -70,14 +80,4 @@
   fill: var(--social-icon-color);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--focus-color);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--main-bgc);
 }

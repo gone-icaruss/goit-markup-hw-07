@@ -87,16 +87,16 @@
   fill: var(--main-bgc);
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--focus-color);
+  }
 }
 
 .soc-list-icon {
   width: 20px;
   height: 20px;
-}
-
-.soc-list-link:hover,
-.soc-list-link:focus {
-  background-color: var(--focus-color);
 }
 
 .follow {
@@ -121,14 +121,14 @@
   color: var(--main-bgc);
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.invite-form-input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-}
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
 
-.invite-form-input:focus {
-  border-color: var(--focus-color);
+  &:focus {
+    border-color: var(--focus-color);
+  }
 }
 
 .label-wrapper {
