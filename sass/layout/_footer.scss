@@ -3,10 +3,6 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer .container {
-  display: flex;
-  align-items: baseline;
-}
 
 .adres-container {
   margin-right: 70px;
@@ -16,15 +12,6 @@
   margin-top: 20px;
   width: 231px;
   height: 81px;
-}
-
-.logos {
-  font-family: var(--logo-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--main-bgc);
 }
 
 .contact-list {
@@ -52,6 +39,11 @@
   color: rgba(255, 255, 255, 0.6);
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--focus-color);
+  }
 }
 
 .invite {

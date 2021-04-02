@@ -1,15 +1,17 @@
-.web-logo {
-  color: var(--focus-color);
-  font-family: var(--logo-font);
-}
-
 .logo {
   margin-right: 93px;
-
   font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--black-color);
+  color: var(--focus-color);
+
+  &__dark-theme {
+    color: var(--main-bgc);
+  }
+
+  &__light-theme {
+    color: var(--black-color);
+  }
 }
