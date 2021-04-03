@@ -51,7 +51,7 @@
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    fill: var(--prymari-text-color);
+    fill: currentColor;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -60,7 +60,7 @@
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    fill: var(--prymari-text-color);
+    fill: currentColor;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
